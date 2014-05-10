@@ -1,0 +1,30 @@
+name: AnvilGame
+main: com.wenikalla.anvilgame.AnvilGame
+version: 1.1.4
+
+commands:
+   agset:
+      description: Used to change certain AnvilGame settings
+      usage: /agset
+      permission: AnvilGame.agset
+      permission-message: §4[AnvilGame]§r You don't have permission for this.
+   aginfo:
+      description: Displays information for developers
+      usage: /aginfo
+      permission: AnvilGame.agset
+      permission-message: §4[AnvilGame]§r You don't have permission for this.
+   anvilgame:
+      description: Teleports you to the AnvilGame
+      usage: /anvilgame
+      permission: 
+      permission-message: §4[AnvilGame]§r You don't have permission for this.
+   agleaderboard:
+      description: Displays the leaderboard
+      usage: /agleaderboard
+      permission: 
+      permission-message: §4[AnvilGame]§r You don't have permission for this.
+   agdev:
+      description: Displays information about the plugin
+      usage: /agdev
+      permission: 
+      permission-message: §4[AnvilGame]§r You don't have permission for this.
